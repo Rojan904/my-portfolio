@@ -18,20 +18,8 @@ a{
     text-decoration: none;
 }
 section{
-    margin: auto;
     height: 100vh;
-    
+    // margin: auto;
+    overflow: hidden;
     scroll-snap-align: center; //for smooth scroll
-}
-.course{
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: wheat;
 }
